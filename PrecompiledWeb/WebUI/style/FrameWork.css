@@ -1,0 +1,14 @@
+﻿
+   /* 出错样式 */
+        input.error, textarea.error
+        {
+            border: solid 1px #CD0A0A;
+        }
+        label.error
+        {
+            color: #CD0A0A;
+            margin-left: 5px;
+        }
+        
+       /*  遮罩层 */
+ .MaskDiv{background-color:#e3e3e3; position:absolute; z-index:19; left:0; top:0; display:none; width:100%; height:1000px;opacity:0.5;filter: alpha(opacity=80);-moz-opacity: 0.5;}

@@ -1,0 +1,19 @@
+body {margin: 0;padding: 0;	background: #FFF;font-family: arial,helvetica,sans;}
+a {color: #006E97;text-decoration: none;cursor: pointer;cursor: hand;}
+a:hover{text-decoration: underline;}
+ul {margin:0;padding:0;list-style:none;}
+/* Header */
+#header {float: left;display: inline;width: 100%;min-width: 980px;background: url('../images/header.png');padding: 0;margin:0;height:119px;overflow: visible;}
+/*  Nav */
+#dd-navigation {background:#007dc3 url('../images/navbar.png') no-repeat -50px 0;clear:both; height:39px;}
+#nav-strip ul li.nav-item,#nav-strip ul li.nav-item.active ,#nav-strip ul li.nav-item:hover{border-right: 1px #0F6BA7 solid;border-left: 1px #69C solid;}
+#nav-strip {clear: both; margin: 0 auto;width: 936px;height:35px;line-height: 15px;position:relative;z-index: 16777265;border-right: 1px #69C solid;border-left: 1px #0F6BA7 solid;}
+#nav-strip a:hover {text-decoration:none;}
+#nav-strip ul li.nav-item {	display: inline;float: left;position:relative;width:115px;height:35px;text-align:center;}
+#nav-strip ul li.nav-item.active{background: url('../images/navbar.png') no-repeat -100px -50px;}
+#nav-strip ul li.nav-item:hover,#nav-strip ul li.nav-item a:hover, #nav-strip ul li.nav-item.hover{background: url('../images/navbar.png') no-repeat -400px -100px;}
+#nav-strip ul li.nav-item:hover a, #nav-strip ul li.nav-item.hover a{color: #fff;}
+#nav-strip ul li.nav-item.active a{	color: #fff;}
+#nav-strip ul li a{	font-weight: bold;color: #FFFFFF;display:block;padding:10px;font-size: 12px;outline:none;}
+
+

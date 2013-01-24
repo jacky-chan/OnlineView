@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{8D79ADB0-5421-4B4F-BB5A-5481DCF5BC54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessModel", "BusinessModel\BusinessModel.csproj", "{D4CFA1F9-D591-4B97-9862-AB7D35472721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{3B99C258-6A61-4F3E-8F3D-14072144B1CA}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebUI", "WebUI\", "{398C1385-F403-49BE-9EF2-A960B0C3F567}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.PhysicalPath = "WebUI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebUI\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.VirtualPath = "/WebUI"
+		Release.AspNetCompiler.Debug = "False"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.PhysicalPath = "WebUI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebUI\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.VirtualPath = "/WebUI"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		VWDPort = "46710"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{398C1385-F403-49BE-9EF2-A960B0C3F567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{398C1385-F403-49BE-9EF2-A960B0C3F567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{398C1385-F403-49BE-9EF2-A960B0C3F567}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{398C1385-F403-49BE-9EF2-A960B0C3F567}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{3B99C258-6A61-4F3E-8F3D-14072144B1CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B99C258-6A61-4F3E-8F3D-14072144B1CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B99C258-6A61-4F3E-8F3D-14072144B1CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B99C258-6A61-4F3E-8F3D-14072144B1CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D79ADB0-5421-4B4F-BB5A-5481DCF5BC54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D79ADB0-5421-4B4F-BB5A-5481DCF5BC54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D79ADB0-5421-4B4F-BB5A-5481DCF5BC54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D79ADB0-5421-4B4F-BB5A-5481DCF5BC54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4CFA1F9-D591-4B97-9862-AB7D35472721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4CFA1F9-D591-4B97-9862-AB7D35472721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4CFA1F9-D591-4B97-9862-AB7D35472721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4CFA1F9-D591-4B97-9862-AB7D35472721}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
