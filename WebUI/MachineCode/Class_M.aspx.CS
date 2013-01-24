@@ -119,6 +119,7 @@ namespace Demo.UI.MachineCode
             }
 
             gvData.DataSource = result.Result;
+
             gvData.DataBind();
         }
        
